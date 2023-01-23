@@ -87,6 +87,32 @@ padding: 1%;
   width: 5%;
 }
 
+.container #menu {
+	overflow: hidden;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+.container #menu a {
+  display: block;
+  color: black;
+  text-align: center;
+	font-size: 2vw;
+  padding: 8px 16px;
+  text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: bold;
+}
+
+.container #menu a:hover:not(.active) {
+  background-color: #A800A2;
+	color: white;
+}
+
+.active {
+  background-color: #AAAAAA;
+}
+
 .container p {
 	color: #000000;
 	font-size: 1.5vw;
@@ -100,30 +126,6 @@ padding: 1%;
 	font-weight: bold;
 }
 
-.container #menu {
-	overflow: hidden;
-	background-color: #A800A2;
-	display: flex;
-	justify-content: center;
-}
-.container #menu a {
-  display: block;
-  color: white;
-  text-align: center;
-	font-size: 2vw;
-  padding: 8px 16px;
-  text-decoration: none;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-weight: bold;
-}
-
-.container #menu a:hover:not(.active) {
-  background-color: #553ADC;
-}
-
-.active {
-  background-color: #4CAF50;
-}
 
 .container #main {
 	padding-top: 7%;
