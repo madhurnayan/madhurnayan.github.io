@@ -1,0 +1,248 @@
+/* Nayan Lab*/
+
+@charset "utf-8";
+/*RESET STYLESHEET TO REDUCE BROWSWER INCONSISTINCIES*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, var,
+b, u, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption,
+article, aside, canvas, details, embed, 
+figure, figcaption,  hgroup, 
+nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/*END OF RESET*/
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: deepskyblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
+
+body {
+	background: #FFFFFF;
+	margin: auto;
+	width: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+.container {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.container .header {
+padding: 1%;
+	  display: flex;
+  justify-content: center;
+}
+
+.header h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 1%;
+	font-size: 2vw;
+	color: #A800A2;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 600;
+	position: relative;
+	border: 0;
+	vertical-align: baseline;
+}
+.header img{
+	float: left;
+  width: 5%;
+}
+
+
+
+.container #menu {
+	overflow: hidden;
+	background-color: #A800A2;
+	display: flex;
+	justify-content: center;
+}
+.container #menu a {
+  display: block;
+  color: white;
+  text-align: center;
+	font-size: 2vw;
+  padding: 8px 16px;
+  text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: bold;
+}
+
+.container #menu a:hover:not(.active) {
+  background-color: #553ADC;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.container #main {
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+.container #main p {
+	color: #FFFFFF;
+	font-size: 3vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.container #disc p {
+	color: #FFFFFF;
+	font-size: 1vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.container #cont p {
+	color: #FFFFFF;
+	font-size: 1.5vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+.container #cont a {
+	color: #FFFFFF;
+	font-size: 1.5vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.container #main-right {
+  float: none;
+  display: table;
+	width: 75%;
+	background: #FFFFFF;	
+	margin: 0 auto;
+	padding-top: 0%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.container #main-right h3 {
+	font-size: 34px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-bottom: 0px;
+}
+.container #main-right #left_column {
+	float: left;
+	width: 50%;
+	display: block;
+	background: inherit;
+}
+.container #main-right #right_column {
+	float: left;
+	width: 44%;
+	display: block;
+	background: inherit;
+}
+
+
+.container #main-right h4 {
+	font-size: 26px;
+	padding-top: 25px;
+	padding-bottom: 5px;
+	text-decoration: underline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+.container #main-right h5 {
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 25px;
+	font-variant: normal;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#footermain {
+	display: block;
+	text-align: right;
+	border-top: thin solid #A800A2;
+	vertical-align: baseline;
+	background: #A800A2;
+	line-height: normal;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+#footermain p{
+	color: #FFFFFF;
+	font-size: 1vw;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.footer {
+	display: block;
+	text-align: right;
+	border-top: thin solid #A800A2;
+	vertical-align: baseline;
+	background: #A800A2;
+	line-height: normal;
+}
+.footer p{
+	color: #FFFFFF;
+	font-size: 1vw;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
