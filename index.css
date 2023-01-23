@@ -62,6 +62,7 @@ p {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
+
 .container {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -89,6 +90,8 @@ padding: 1%;
 	float: left;
   width: 5%;
 }
+
+
 
 .container p {
 	color: #000000;
