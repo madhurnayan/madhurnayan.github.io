@@ -57,6 +57,10 @@ p {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
+	color: #000000;
+	font-size: 1vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
 }
 .container {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -86,7 +90,12 @@ padding: 1%;
   width: 5%;
 }
 
-
+.container p {
+	color: #000000;
+	font-size: 5vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
 
 .container #menu {
 	overflow: hidden;
