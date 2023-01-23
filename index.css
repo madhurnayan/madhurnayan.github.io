@@ -58,7 +58,7 @@ p {
 	border: 0;
 	vertical-align: baseline;
 	color: #000000;
-	font-size: 2vw;
+	font-size: 1vw;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
@@ -78,7 +78,7 @@ padding: 1%;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: 1%;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: #A800A2;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 600;
