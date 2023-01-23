@@ -94,6 +94,13 @@ padding: 1%;
 	font-weight: bold;
 }
 
+.container h2 {
+	color: #000000;
+	font-size: 2vw;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
 .container #menu {
 	overflow: hidden;
 	background-color: #A800A2;
