@@ -126,46 +126,6 @@ padding: 1%;
 	font-weight: bold;
 }
 
-
-.container #main {
-	padding-top: 7%;
-	padding-bottom: 7%;
-}
-
-.container #main p {
-	color: #FFFFFF;
-	font-size: 3vw;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-}
-
-.container #disc p {
-	color: #FFFFFF;
-	font-size: 1vw;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-.container #cont p {
-	color: #FFFFFF;
-	font-size: 1.5vw;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	margin: 0;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 0%;
-	padding-bottom: 0%;
-}
-.container #cont a {
-	color: #FFFFFF;
-	font-size: 1.5vw;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-}
-
-
 .sticky {
   position: fixed;
   top: 0;
